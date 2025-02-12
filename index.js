@@ -43,8 +43,13 @@ document.addEventListener("DOMContentLoaded", function () {
     function movenobutton() {
         const noButton = document.getElementById("nobutton");
 
-        const x = Math.random() * (window.innerWidth - 100);
-        const y = Math.random() * (window.innerHeight - 50);
+        const maxX = window.innerWidth - noButton.offsetWidth;
+        const maxY = window.innerHeight - noButton.offsetHeight;
+
+    
+        const x = Math.random() * maxX;
+        const y = Math.random() * maxY;
+
 
         noButton.style.position = 'absolute';
     

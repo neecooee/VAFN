@@ -1,0 +1,61 @@
+body {
+    font-family: "Pretty Girls Script", cursive;
+    text-align: center;
+    background-color: rgb(204, 229, 185);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+  
+  .button {
+    display: flex;          /* Use Flexbox for centering */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center;    /* Center buttons vertically */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 16px;
+    margin-left: 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .yes {
+    background-color: white;
+    color: black;
+  }
+  
+  .yes:hover {
+    background-color: #e63950;
+  }
+  
+  .no {
+    background-color: white;
+    color: black;
+  }
+  
+  .no:hover {
+    background-color: #e63950;
+    position: relative;
+  }
+  
+  .gif-container {
+    margin-bottom: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .tenor-gif-embed {
+    margin-bottom: 5px;
+    display: block;
+    width: 100%; /* Makes the GIF occupy full width of the container */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
